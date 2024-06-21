@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    box-sizing:border-box;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-image:linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url(/images/logo.webp);
+    background-position:center;
+    background-size:contain;
+    background-repeat: no-repeat;
+    position:relative;
+}
+
+.form-box{
+    width:90%;
+    max-width: 450px;
+    position:absolute;
+    top:20%;
+    left:35%;
+    background:rgba(255,255,255);
+    padding: 50px 60px 50px 50px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.form-box h1{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom:30px;
+    color:rgb(214, 0, 28);
+    position:relative;
+}
+
+.input-field{
+    background:lightgrey;
+    margin:20px 0px;
+    display:flex;
+    align-items:center;
+    border-radius: 2px;
+    transition:max-height 0.3s;
+    overflow:hidden;
+}
+
+input{
+    width:100%;
+    background:transparent;
+    border:0;
+    outline:0;
+    border-radius: 3px;
+    padding:18px 15px;
+}
+
+.input-field i{
+    margin-left:15px;
+}
+
+form p{
+    text-align: left;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+form p a{
+    color:rgb(214, 0, 28);
+}
+
+.btn-field{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+
+.btn-field button{
+    flex-basis:48%;
+    height: 40px;
+    background-color: rgb(214, 0, 28);
+    color:rgba(255,255,255);
+    border:0;
+    border-radius: 20px;
+    outline:0;
+    padding:10px;
+    cursor:pointer;
+    font-size: 14px;
+    transition: background 1s;
+}
+
+.input-group{
+    height:260px;
+}
+
+.btn-field button.disable{
+    background: lightgrey;
+    color:#555;
+}
+
+
